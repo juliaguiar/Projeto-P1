@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1447215345 source:e:\documentos antigos\júlia\ufal\materiais\programação\torre de hanói\dev\torredehanoi\main.c
+	<allegro.h>
+	<stdio.h>
+	<winalleg.h>
+	<string.h>
+	<ctype.h>
+
