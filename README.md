@@ -1,6 +1,6 @@
 # Tower of Hanoi Game
 
-This project is a game developed using the Allegro 5 library, primarily targeting Windows platforms.
+This project is a game developed using Allegro 4, a classic game programming library.
 
 ## About the Game
 
@@ -14,17 +14,20 @@ The puzzle is often used to teach recursive algorithms and problem-solving techn
 
 ## Platform Compatibility
 
-- The code uses Windows-specific Allegro extensions (`winalleg.h`), so it currently only compiles and runs on Windows.
-- Running or compiling on macOS or Linux will likely cause errors due to platform-specific dependencies.
+- The code uses Allegro 4, which is an older version of the Allegro library.
+- Allegro 4 may not be fully supported or easily installable on all platforms, especially on macOS.
+- The project is primarily tested and intended to run on Windows.
+- Running or compiling on macOS or Linux might require additional configuration or may not work as expected.
 
 ## Running the Project
 
 To build and run the project on Windows:
 
-1. Install Allegro 5 and its dependencies.
+1. Install Allegro 4 and its dependencies.
 2. Compile using a compatible compiler (e.g., MSVC, MinGW).
 3. Run the executable.
 
 ## Contribution and Portability
 
-Contributions to improve cross-platform compatibility are welcome. If you want to adapt the project to macOS or Linux, please feel free to submit a pull request.
+Contributions to improve cross-platform compatibility or upgrade to Allegro 5 are welcome. Feel free to submit pull requests.
+
